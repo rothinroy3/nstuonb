@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
+            'host' => env('DB_HOST','http://notice-onb.rhcloud.com/'),
+            'port' => env('DB_PORT', '80'),
             'database' => env('DB_DATABASE', 'notice'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', '01823'),
+            'username' => env('DB_USERNAME', 'adminw6eX32x'),
+            'password' => env('DB_PASSWORD', 'BlpyFpCXnLx4'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
